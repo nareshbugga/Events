@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.image {
+  width: 200px;
+}
+@media screen and (max-width: 767px) {
+  .image {
+    width: 150px;
+  }
+  .heading {
+    font-weight: 500;
+    font-size: 20px;
+  }
+}
+.register-button {
+  width: 100px;
+  height: 40px;
+  background-color: #0967d2;
+  color: #ffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+}
+.active-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

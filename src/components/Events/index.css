@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.list-items {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.event-items-container {
+  background-color: #3a4b63;
+  background-size: cover;
+  height: 180vh;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 15px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.registration-heading {
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #475569;
+  text-align: center;
+}
+
+.registration-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 180vh;
+  color: #475569;
+  width: 60vw;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.event-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3px;
+}
+.event-heading {
+  color: #fff;
+  font-family: 'Roboto';
+  text-align: center;
+  margin-bottom: 20px;
+}

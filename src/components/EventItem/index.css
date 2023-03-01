@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.event-image {
+  width: 300px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 767px) {
+  .event-image {
+    width: 200px;
+  }
+  .item-heading {
+    font-size: 15px;
+  }
+  .item-location {
+    font-size: 10px;
+  }
+}
+.border {
+  border: 2px solid #2dd4bf;
+  border-radius: 5px;
+}
+.item-heading {
+  color: #ffffff;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.item-location {
+  color: #ffffff;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+li {
+  margin-bottom: 30px;
+}
+.image-button {
+  background-color: transparent;
+  border: none;
+}
